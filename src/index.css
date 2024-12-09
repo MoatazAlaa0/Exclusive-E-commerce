@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li button:before {
+    color: gray; 
+  }
+  
+
+  .slick-dots li.slick-active button:before {
+    color: #DB4444;
+  }
+
