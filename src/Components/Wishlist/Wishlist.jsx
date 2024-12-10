@@ -102,7 +102,7 @@ export default function Wishlist() {
           className="w-64 h-64 object-contain mb-6"
         />
         <h1 className="text-2xl font-semibold text-gray-800">Your Wishlist is Empty</h1>
-        <p className=" text-xs md:text-[16px] text-gray-600 mt-2">Looks like you haven’t added anything to your wishlist yet.</p>
+        <p className=" text-xs md:text-[16px] text-center text-gray-600 mt-2">Looks like you haven’t added anything to your wishlist yet.</p>
         <Link to={"/Home"}>
 
           <button
